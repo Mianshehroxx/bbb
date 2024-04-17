@@ -748,11 +748,6 @@ main {
   scroll-snap-align: start;
 }
 
-.clients-item img {
-  width: 100%;
- 
-  transition: var(--transition-1);
-}
 
 
 
