@@ -1876,6 +1876,9 @@ textarea.form-input::-webkit-resizer { display: none; }
 
 }
 .logo-images {
-    width: 100px; /* Adjust the width to your preference */
-    height: auto; /* Maintain aspect ratio */
+    max-width: 200px; /* Maximum width for the logo */
+    max-height: 100px; /* Maximum height for the logo */
+    width: auto; /* Allow the width to adjust according to the aspect ratio */
+    height: auto; /* Allow the height to adjust according to the aspect ratio */
 }
+
